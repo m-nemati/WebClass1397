@@ -1,0 +1,223 @@
+@font-face{
+	font-family: 'iranSansWeb';
+	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+}
+@font-face{
+	font-family: 'iranSansWebLight';
+	src: url(../fonts/iransans/eot/IRANSansWeb_Light.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb_Light.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb_Light.woff) format('woff');
+}
+
+body{
+    direction: rtl;
+    background: linear-gradient(to bottom, #5f4d93 , #e37682); 
+ 
+   
+}
+#topHeader{
+    font-family: iranSansWeb;
+    text-align: center;
+    margin-top: 100px;
+}
+#topHeader h1{
+    font-size: 40px;
+}
+#topHeader p{
+    font-size: 30px;
+}
+#mainLogo{
+    width: 100px;
+    height: 150px;
+}
+#mainPanel{
+    width: 1000px;
+    height: 3000px;
+    background-color: #fff;
+    margin: 50px auto 0;
+}
+/* Style For Navigation Bar*/
+#topNavbar{
+    width: 800px;
+    margin: 50px auto 0;
+    padding-top: 10px;
+    background-color: #fff;
+}
+#topNavbar ul{
+    list-style-type: none;
+}
+#topNavbar ul li{
+    display: inline;
+    padding-right: 55px;
+}
+#topNavbar ul li a{
+    font-family: iranSansWeb;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+}
+#topNavbar ul li a:hover{
+    background: linear-gradient(to bottom, #5f4d93 , #e37682); 
+    color: #000;
+}
+/* Style For Fix Navbar in Top When Scroll*/
+.sticky{
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+/* Styles for Main Content*/
+/* section 1 introduction*/
+#introduction{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.introRightDiv{
+    width: 700px;
+    float: right;
+}
+.introLeftDiv{
+    width: 200px;
+    float: left;
+}
+#itroImage{
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+.headerIntroText{
+    font-family: iranSansWebLight;
+}
+.contentIntroText{
+    font-family: iranSansWebLight;
+    text-indent: 15px;
+}
+/* Section 2 Web Video from TED.com*/
+#webvideo{
+    clear: both;
+}
+.headervideo{
+    font-family: iranSansWebLight;
+    text-align: center;
+}
+iframe{
+    width:600px;
+    height:300px;
+    display: block;
+    margin: 0 auto;
+}
+/* Section 3 Slides*/
+#slides{
+    clear: both;
+}
+.headersiles{
+    font-family: iranSansWebLight;
+    text-align: center;
+}
+.slideTopic{
+    width: 270px;
+    float: right;
+    font-family: iranSansWebLight;
+    margin-right: 40px;
+    
+}
+.slidetitr{
+    text-align: center;
+}
+.imageslide{
+    width: 100px;
+    height: 100px;
+    margin-right: 76px;
+}
+.slideTopic p{
+   // text-align: center;
+}
+.slideTopic a{
+    text-decoration: none;
+    margin-right: 60px;
+}
+/* Style For Class Information*/
+#classinfo{
+    clear: both;
+}
+#classinfo h2 {
+    font-family: iranSansWebLight;
+    text-align: center;
+}
+
+#classinfo p{
+    text-align: center;
+}
+#classinfo img{
+   width: 800px;
+   height: 400px; 
+   
+}
+#classinfo a{
+    text-decoration: none;
+    font-family: iranSansWebLight;
+    text-align: center;
+}
+#classinfo p{
+    text-decoration: none;
+    font-family: iranSansWebLight;
+    text-align: center;
+}
+/* Styles for Footer*/
+#footer{
+    width:1000px;
+    font-family: iranSansWeb;
+    margin: 5px auto 0;
+    color: #ffffff;
+
+}
+.rightdiv{
+    width: 480px;
+    float: right;
+}
+.leftdiv{
+    width: 480px;
+    float: left;
+}
+.bottomdiv{
+    clear: both;
+}
+#socialIcon a:link{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+#socialIcon  a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+#lecturenoteDiv{
+    text-align: center;
+}
+#logoLink{
+    text-align: center;
+    margin: 0 auto 0;
+}
+#mylogoImg{
+    width: 200px;
+    height: 200px;
+}
+.copyleft{
+    text-align: center;
+    font-size: 15px;
+}
+#goTopButton{
+    position:fixed;
+    bottom:10px;
+    right: 25px;
+    cursor: pointer;
+    display: none;
+}
